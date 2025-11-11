@@ -7,7 +7,7 @@ body {
   }
   
   h1, h2, h3 {
-    color: #cb68f1;
+    color: #2a0c36;
     text-transform: uppercase;
     letter-spacing: 1px;
   }
@@ -30,7 +30,7 @@ body {
     background-color: #f3ecfa;
     border: 1px solid #e1c6f5;
     transition: 0.3s;
-    color: #12021f;
+    color: #050008;
   }
   
   .card:hover {
@@ -54,7 +54,7 @@ body {
   .list-group-item {
     background-color: #f5f0fa;
     border: 1px solid #e1c6f5;
-    color: #4a355a;
+    color: #23043b;
   }
   
   .list-group-item:hover {
@@ -71,7 +71,7 @@ body {
   }
   
   form label {
-    color: #7a598a;
+    color: #3e005e;
     font-weight: bold;
   }
   
@@ -92,7 +92,7 @@ body {
   }
   
   footer {
-    background-color: #e9ddf6;
+    background-color: #0a0014;
     border-top: 2px solid #d8b8f0;
     color: #7b27bb;
     text-align: center;

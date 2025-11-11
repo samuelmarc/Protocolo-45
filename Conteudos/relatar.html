@@ -1,73 +1,77 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Relatar Avistamento - Refúgio 2145</title>
+  <title>Relatar Avistamento | Refúgio 2145</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-black shadow">
-  <div class="container">
-    <a class="navbar-brand fw-bold text-danger" href="index.html">Refúgio 2145</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link" href="criaturas.html">Criaturas</a></li>
-        <li class="nav-item"><a class="nav-link" href="taticas.html">Táticas</a></li>
-        <li class="nav-item"><a class="nav-link" href="recursos.html">Recursos</a></li>
-        <li class="nav-item"><a class="nav-link active" href="relatar.html">Relatar</a></li>
-      </ul>
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Refúgio 2145</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+          <li class="nav-item"><a class="nav-link" href="criaturas.html">Criaturas</a></li>
+          <li class="nav-item"><a class="nav-link" href="taticas.html">Táticas</a></li>
+          <li class="nav-item"><a class="nav-link" href="recursos.html">Recursos</a></li>
+          <li class="nav-item"><a class="nav-link active" href="relatar.html">Relatar</a></li>
+        </ul>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
 
-<section class="container my-5">
-  <h1 class="text-center mb-4 text-danger">Relatar Avistamento</h1>
-  <p class="text-center text-warning mb-4">⚠️ Só envie relatórios se estiver em área segura. Sinais falsos podem atrair o Vácuo.</p>
+  <section class="container my-5">
+    <h1 class="text-center mb-4">Relatar Avistamento</h1>
+    <p class="text-center mb-5">Preencha o formulário abaixo com as informações do avistamento. Sua colaboração mantém outros sobreviventes seguros.</p>
 
-  <form class="bg-dark p-4 rounded border border-danger">
-    <div class="mb-3">
-      <label for="nome" class="form-label">Nome do Comunicador</label>
-      <input type="text" class="form-control bg-black text-light border-secondary" id="nome" required>
-    </div>
+    <form class="mx-auto" style="max-width: 600px;">
+      <div class="mb-3">
+        <label for="nome" class="form-label">Seu Nome</label>
+        <input type="text" id="nome" class="form-control" required>
+      </div>
 
-    <div class="mb-3">
-      <label for="local" class="form-label">Local do Avistamento</label>
-      <input type="text" class="form-control bg-black text-light border-secondary" id="local" required>
-    </div>
+      <div class="mb-3">
+        <label for="local" class="form-label">Local do Avistamento</label>
+        <input type="text" id="local" class="form-control" placeholder="Ex: Ruínas do Setor 7" required>
+      </div>
 
-    <div class="mb-3">
-      <label for="criatura" class="form-label">Tipo de Criatura</label>
-      <select class="form-select bg-black text-light border-secondary" id="criatura" required>
-        <option selected disabled>Escolha...</option>
-        <option>Sombrius</option>
-        <option>Rasgo</option>
-        <option>Corruptor</option>
-        <option>Neuralha</option>
-        <option>Outros</option>
-      </select>
-    </div>
+      <div class="mb-3">
+        <label for="tipo" class="form-label">Tipo de Criatura</label>
+        <select id="tipo" class="form-select" required>
+          <option value="">Selecione</option>
+          <option>Vácua Menor</option>
+          <option>Sentinela das Sombras</option>
+          <option>Devastador</option>
+          <option>Eco Carmesim</option>
+          <option>Outros</option>
+        </select>
+      </div>
 
-    <div class="mb-3">
-      <label for="descricao" class="form-label">Descrição do Ocorrido</label>
-      <textarea class="form-control bg-black text-light border-secondary" id="descricao" rows="4" required></textarea>
-    </div>
+      <div class="mb-3">
+        <label for="descricao" class="form-label">Descrição do Ocorrido</label>
+        <textarea id="descricao" class="form-control" rows="4" required></textarea>
+      </div>
 
-    <div class="mb-3">
-      <label for="data" class="form-label">Data e Hora</label>
-      <input type="datetime-local" class="form-control bg-black text-light border-secondary" id="data" required>
-    </div>
+      <div class="mb-3">
+        <label for="data" class="form-label">Data e Hora</label>
+        <input type="datetime-local" id="data" class="form-control" required>
+      </div>
 
-    <button type="submit" class="btn btn-outline-danger w-100" onclick="alert('Relato recebido. Permaneça oculto e aguarde instruções.')">Enviar Relato</button>
-  </form>
-</section>
+      <div class="text-center">
+        <button type="submit" class="btn">Enviar Relato</button>
+      </div>
+    </form>
+  </section>
 
-<footer class="text-center py-4 mt-5 bg-black">
-  <p class="mb-0 text-light">© 2045 — Projeto Refúgio 2145 | Comunicadores de Campo</p>
-</footer>
+  <footer>
+    <p>Refúgio 2145 © 2045 | Unidos pela sobrevivência</p>
+  </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script></body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script></body>
 </html>
