@@ -1,97 +1,129 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Protocolo 45 - Ínicio</title>
-		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-			rel="stylesheet"
-			integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-			crossorigin="anonymous"
-			/>
-		<link rel="stylesheet" href="./style.css">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Anton&family=Russo+One&display=swap" rel="stylesheet">
-    <style>
-      .lead {
-        margin: 40px;
-      }
-    </style>
-	</head>
-	<body data-bs-theme="dark">
-		<nav class="navbar navbar-expand-lg sticky-top">
-			<div class="container">
-				<a class="navbar-brand" href="index.html">Protocolo 45</a>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
-				<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="menu">
-					<ul class="navbar-nav ms-auto">
-						<li class="nav-item"><a class="nav-link active" href="index.html">Início</a></li>
-						<li class="nav-item"><a class="nav-link" href="criaturas.html">Criaturas</a></li>
-						<li class="nav-item"><a class="nav-link" href="taticas.html">Táticas</a></li>
-						<li class="nav-item"><a class="nav-link" href="recursos.html">Recursos</a></li>
-						<li class="nav-item"><a class="nav-link" href="relatar.html">Relatar</a></li>
-					</ul>
-				</div>
-			</div>
-		</nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Protocolo 45 - Ínicio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
 
-		<div class="px-4 py-5 my-5 text-center">
-			<svg
-				xmlns="http://www.w3.org/2000/svg"
-				width="100"
-				height="200"
-				fill="currentColor"
-				class="bi bi-backpack2"
-				viewBox="0 0 16 16"
-				>
-				<path
-					d="M4.04 7.43a4 4 0 0 1 7.92 0 .5.5 0 1 1-.99.14 3 3 0 0 0-5.94 0 .5.5 0 1 1-.99-.14"
-					/>
-				<path
-					fill-rule="evenodd"
-					d="M4 9.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5zm1 .5v3h6v-3h-1v.5a.5.5 0 0 1-1 0V10z"
-					/>
-				<path
-					d="M6 2.341V2a2 2 0 1 1 4 0v.341c2.33.824 4 3.047 4 5.659v1.191l1.17.585a1.5 1.5 0 0 1 .83 1.342V13.5a1.5 1.5 0 0 1-1.5 1.5h-1c-.456.607-1.182 1-2 1h-7a2.5 2.5 0 0 1-2-1h-1A1.5 1.5 0 0 1 0 13.5v-2.382a1.5 1.5 0 0 1 .83-1.342L2 9.191V8a6 6 0 0 1 4-5.659M7 2v.083a6 6 0 0 1 2 0V2a1 1 0 0 0-2 0M3 13.5A1.5 1.5 0 0 0 4.5 15h7a1.5 1.5 0 0 0 1.5-1.5V8A5 5 0 0 0 3 8zm-1-3.19-.724.362a.5.5 0 0 0-.276.447V13.5a.5.5 0 0 0 .5.5H2zm12 0V14h.5a.5.5 0 0 0 .5-.5v-2.382a.5.5 0 0 0-.276-.447L14 10.309Z"
-					/>
-			</svg>
-			<h1 class="display-5 fw-bold text-body-emphasis">
-				O Guia da Sobrevivência Pós-Falha
-			</h1>
-			<div class="col-lg-6 mx-auto">
-				<p class="lead mb-4">
-					Em 2045, o mundo colapsou. A Falha destruiu cidades, apagou a
-					tecnologia e mergulhou a humanidade no caos. Das cinzas surgiram os
-					Vácua — criaturas mutantes e hostis que agora dominam o que restou da
-					Terra. Este guia, criado pelos Comunicadores de Campo, reúne
-					informações vitais para reconhecer, enfrentar e sobreviver a essas
-					ameaças. Aqui, conhecimento é a única arma que ainda resta.
-				</p>
-				<div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-					<a href="criaturas.html" class="btn btn-primary btn-lg px-4 gap-3">Criaturas</a>
-					<a href="taticas.html" class="btn btn-outline-secondary btn-lg px-4">Táticas</a>
-					<a href="recursos.html" class="btn btn-outline-secondary btn-lg px-4">Recursos</a>
-				</div>
-			</div>
-		</div>
-		
-		<footer>
-			<div class="sticky-bottom border-top text-center py-3 bg-dark">
-			  <p class="mb-0">© 2025 Protocolo 45 - Todos os direitos reservados</p>
-			</div>
-		</footer>
-		
-		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-			crossorigin="anonymous"
-			></script>
-	</body>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Engagement&family=Jacquard+12&family=Trade+Winds&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Engagement&family=Jacquard+12&family=Skranji:wght@400;700&family=Trade+Winds&display=swap" rel="stylesheet">
+
+  </head>
+  <body data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Protocolo 45</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#menu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="criaturas.html">Criaturas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="taticas.html">Táticas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="recursos.html">Recursos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="relatar.html">Relatar</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="px-4 py-5 my-5 text-center">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="100"
+        height="200"
+        fill="currentColor"
+        class="bi bi-backpack2"
+        viewBox="0 0 16 16"
+      >
+        <path
+          d="M4.04 7.43a4 4 0 0 1 7.92 0 .5.5 0 1 1-.99.14 3 3 0 0 0-5.94 0 .5.5 0 1 1-.99-.14"
+        />
+        <path
+          fill-rule="evenodd"
+          d="M4 9.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5zm1 .5v3h6v-3h-1v.5a.5.5 0 0 1-1 0V10z"
+        />
+        <path
+          d="M6 2.341V2a2 2 0 1 1 4 0v.341c2.33.824 4 3.047 4 5.659v1.191l1.17.585a1.5 1.5 0 0 1 .83 1.342V13.5a1.5 1.5 0 0 1-1.5 1.5h-1c-.456.607-1.182 1-2 1h-7a2.5 2.5 0 0 1-2-1h-1A1.5 1.5 0 0 1 0 13.5v-2.382a1.5 1.5 0 0 1 .83-1.342L2 9.191V8a6 6 0 0 1 4-5.659M7 2v.083a6 6 0 0 1 2 0V2a1 1 0 0 0-2 0M3 13.5A1.5 1.5 0 0 0 4.5 15h7a1.5 1.5 0 0 0 1.5-1.5V8A5 5 0 0 0 3 8zm-1-3.19-.724.362a.5.5 0 0 0-.276.447V13.5a.5.5 0 0 0 .5.5H2zm12 0V14h.5a.5.5 0 0 0 .5-.5v-2.382a.5.5 0 0 0-.276-.447L14 10.309Z"
+        />
+      </svg>
+      <h1 class="index-h1 display-5 fw-bold text-body-emphasis">
+        O Guia da Sobrevivência Pós-Falha
+      </h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">
+          Em 2045, o mundo colapsou. A Falha destruiu cidades, apagou a
+          tecnologia e mergulhou a humanidade no caos. Das cinzas surgiram os
+          Vácua — criaturas mutantes e hostis que agora dominam o que restou da
+          Terra. Este guia, criado pelos Comunicadores de Campo, reúne
+          informações vitais para reconhecer, enfrentar e sobreviver a essas
+          ameaças. Aqui, conhecimento é a única arma que ainda resta.
+        </p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <a href="criaturas.html" class="index-btn btn btn-primary btn-lg px-4 gap-3"
+            >Criaturas</a
+          >
+          <a href="taticas.html" class="index-btn btn btn-outline-secondary btn-lg px-4"
+            >Táticas</a
+          >
+          <a href="recursos.html" class="index-btn 	btn btn-outline-secondary btn-lg px-4"
+            >Recursos</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="sticky-bottom border-top text-center py-3 bg-dark">
+        <p class="mb-0">© 2025 Protocolo 45 - Todos os direitos reservados</p>
+      </div>
+    </footer>
+
+	
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
