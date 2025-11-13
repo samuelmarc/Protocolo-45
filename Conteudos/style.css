@@ -37,16 +37,6 @@ h3 {
   text-transform: uppercase;
   font-weight: bold;
 }
-.card {
-  background-color: #efedf1;
-  border: 1px solid #e1c6f5;
-  transition: 0.3s;
-  color: #12021f;
-}
-.card:hover {
-  border-color: #cc81f1;
-  transform: scale(1.03);
-}
 .btn {
   color: white;
   background-color: black;
