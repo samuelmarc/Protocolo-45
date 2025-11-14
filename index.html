@@ -1,40 +1,106 @@
 <!DOCTYPE html>
 <html lang="pt-br" data-bs-theme="dark" class="h-100">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Zinco</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-    <link rel="shortcut icon" href="./assets/icons/favicon.ico" type="image/x-icon">
-</head>
-<body class="d-flex flex-column h-100">
-    <header class="container-fluid py-3 mb-4 border-bottom bg-body-tertiary">
-        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between">
-            
-            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-decoration-none link-body-emphasis">
-                <div class="bi bi-radioactive me-2 text-warning" style="font-size: 2rem;"></div>
-                <span class="fs-4">Project Zinco</span>
-            </a>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Project Zinco</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+		<link rel="shortcut icon" href="./assets/icons/favicon.ico" type="image/x-icon">
+	</head>
+	<body class="d-flex flex-column h-100">
+		<header class="container-fluid py-3 border-bottom bg-body-tertiary">
+			<div class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between">
+				<a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-decoration-none link-body-emphasis">
+					<div class="bi bi-radioactive me-2 text-warning" style="font-size: 2rem;"></div>
+					<span class="fs-4">Project Zinco</span>
+				</a>
+				<ul class="nav nav-pills">
+					<li class="nav-item"><a href="./index.html" class="nav-link active">Início</a></li>
+					<li class="nav-item"><a href="./criaturas.html" class="nav-link">Bestiário</a></li>
+					<li class="nav-item"><a href="./recursos.html" class="nav-link">Recursos</a></li>
+					<li class="nav-item"><a href="./taticas.html" class="nav-link">Táticas</a></li>
+					<li class="nav-item"><a href="./relatar.html" class="nav-link">Relatar</a></li>
+				</ul>
+			</div>
+		</header>
 
-            <ul class="nav nav-pills">
-                <li class="nav-item"><a href="./index.html" class="nav-link active">Início</a></li>
-                <li class="nav-item"><a href="./criaturas.html" class="nav-link">Bestiário</a></li>
-                <li class="nav-item"><a href="./recursos.html" class="nav-link">Recursos</a></li>
-                <li class="nav-item"><a href="./taticas.html" class="nav-link">Táticas</a></li>
-                <li class="nav-item"><a href="./relatar.html" class="nav-link">Relatar</a></li>
-            </ul>
-        </div>
-    </header>
+		<main class="flex-shrink-0">
+            <div class="container-fluid position-relative" style="background-image: url('./assets/imgs/hero.png'); background-size: cover; background-position: center; background-repeat: no-repeat; min-height: 100vh;">
+                <div class="position-absolute top-0 start-0 w-100 h-100" style="background: linear-gradient(135deg, rgba(255, 193, 7, 0.15), rgba(0, 0, 0, 0.85));"></div>
+                
+                <div class="px-4 py-5 text-center position-relative">
+                    <h1 class="display-5 fw-bold mb-4">O ano é 2045</h1>
+                    <div class="mx-auto">
+                        <p class="lead">Após a Queda das Torres Solares, tempestades magnéticas devastaram o continente, alterando fauna, flora e até mesmo as estruturas urbanas. Criaturas mutadas vagam pelas ruínas, e poucos sobreviventes ainda lutam para manter viva a chama da civilização.</p>
+                        <p class="lead">Este guia foi compilado a partir de registros militares, relatos de exploradores e documentos recuperados em zonas de risco extremo. Ele existe para garantir que você — seja quem for — permaneça vivo tempo suficiente para fazer a diferença.</p>
+                        <p class="lead text-warning fw-semibold">Se encontrou estas páginas, memorize o que puder.</p>
+                        <p class="lead text-danger fw-bold">No mundo lá fora, informação é sobrevivência.</p>
+                    </div>
 
-    <main class="flex-shrink-0"></main>
+                    <div class="row g-4 justify-content-center">
+                        <div class="col-12 col-md-6 col-xl-3">
+                            <div class="card h-100 border-warning shadow-lg">
+                                <div class="card-body text-center d-flex flex-column">
+                                    <i class="bi bi-bug-fill text-warning" style="font-size: 3rem;"></i>
+                                    <h5 class="card-title mt-3">Bestiário</h5>
+                                    <p class="card-text">Conheça as criaturas mutadas que dominam as ruínas. Suas fraquezas podem ser a diferença entre vida e morte.</p>
+                                    <a href="./criaturas.html" class="btn btn-warning mt-auto">
+                                        <i class="bi bi-arrow-right-circle me-2"></i>Explorar
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
 
-    <footer class="footer mt-auto p-3 bg-body-tertiary border-top">
-	    <div class="container text-center">
-            <span class="text-body-secondary">&copy; Project Zinco 2025</span>
-        </div>
-    </footer>
+                        <div class="col-12 col-md-6 col-xl-3">
+                            <div class="card h-100 border-danger shadow-lg">
+                                <div class="card-body text-center d-flex flex-column">
+                                    <i class="bi bi-shield-fill-check text-danger" style="font-size: 3rem;"></i>
+                                    <h5 class="card-title mt-3">Táticas</h5>
+                                    <p class="card-text">Estratégias de combate e sobrevivência testadas em campo. Aprenda com quem sobreviveu.</p>
+                                    <a href="./taticas.html" class="btn btn-danger mt-auto">
+                                        <i class="bi bi-arrow-right-circle me-2"></i>Acessar
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-</body>
+                        <div class="col-12 col-md-6 col-xl-3">
+                            <div class="card h-100 border-info shadow-lg">
+                                <div class="card-body text-center d-flex flex-column">
+                                    <i class="bi bi-capsule text-info" style="font-size: 3rem;"></i>
+                                    <h5 class="card-title mt-3">Recursos</h5>
+                                    <p class="card-text">Saiba quais recursos você vai precisar para aumentar sua chance de sobrevivência</p>
+                                    <a href="./taticas.html" class="btn btn-info mt-auto">
+                                        <i class="bi bi-arrow-right-circle me-2"></i>Acessar
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-xl-3">
+                            <div class="card h-100 border-primary shadow-lg">
+                                <div class="card-body text-center d-flex flex-column">
+                                    <i class="bi bi-crosshair text-primary" style="font-size: 3rem;"></i>
+                                    <h5 class="card-title mt-3">Relatar</h5>
+                                    <p class="card-text">Encontrou um Vácua estranho? Entre em contato conosco</p>
+                                    <a href="./taticas.html" class="btn btn-primary mt-auto">
+                                        <i class="bi bi-arrow-right-circle me-2"></i>Acessar
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+		<footer class="footer mt-auto p-3 bg-body-tertiary border-top">
+			<div class="container text-center">
+				<span class="text-body-secondary">&copy; Project Zinco 2025</span>
+			</div>
+		</footer>
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+	</body>
 </html>
