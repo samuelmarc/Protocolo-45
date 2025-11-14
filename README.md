@@ -1,5 +1,7 @@
 # ☢️ Project Zinco
 
+![](https://i.giphy.com/Swe88t5HdhrCrqTJRY.webp)
+
 ## ℹ️ Sobre este projeto
 
 Ano 2045. Um evento chamado “*A falha”* dizimou grande parte das cidades. Criaturas mutantes — chamadas genericamente de **Vácua** — dominam vastas áreas. Comunidades remanescentes criam portais informativos para ensinar sobrevivência. Este projeta simula um grupo que atua como “comunicadores de campo” encarregada de construir um **site informativo** que ajude sobreviventes a reconhecerem cada criatura, descobrir pontos fracos, táticas de sobrevivência e locais seguros.
