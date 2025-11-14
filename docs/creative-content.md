@@ -78,6 +78,27 @@ Criatura subterrânea gigantesca que agora vaga na superfície. Extremamente vel
 
 ---
 
+## 10. Sussurrador de Frequência
+Entidade incorpórea que se manifesta através de dispositivos eletrônicos. Causa alucinações auditivas e paranoia progressiva.
+- **Ponto fraco:** Isolamento eletromagnético completo.
+- **Tática recomendada:** Gaiola de Faraday ou desative todos os dispositivos eletrônicos num raio de 50 metros.
+
+---
+
+## 11. Rastejante de Cinzas
+Organismo amorfo composto de material particulado radioativo. Contamina tudo que toca e se espalha pelo ar.
+- **Ponto fraco:** Água pressurizada dissolve sua estrutura.
+- **Tática recomendada:** Use mangueiras de alta pressão ou aspersores industriais. Máscara com filtro P3 obrigatória.
+
+---
+
+## 12. Espreitador de Sombras
+Predador dimensional que só existe em completa escuridão. Paralisa vítimas através do contato visual.
+- **Ponto fraco:** Qualquer fonte de luz o dispersa instantaneamente.
+- **Tática recomendada:** Mantenha múltiplas fontes luminosas ativas. Sinalizadores e lanternas com baterias sobressalentes são essenciais.
+
+---
+
 # 🛡️ Táticas de Sobrevivência
 
 ## Abrigos
