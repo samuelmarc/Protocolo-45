@@ -25,7 +25,63 @@
             </div>
         </header>
         
-		<main class="flex-shrink-0"></main>
+		<main class="flex-shrink-0">
+			<div class="container py-5">
+				<h1 class="display-5 fw-semibold text-center">Relatar Avistamento</h1>
+				<p class="text-center">Caso tenha visto uma criatura ou evento anômalo, registre as informações abaixo. Seus dados podem salvar vidas.</p>
+
+				<div class="container-fluid bg-body-secondary p-3 mb-4 rounded-3">
+					<h2 class="mb-3">Instruções de Segurança</h2>
+					<ul class="list-group list-group-numbered">
+						<li class="list-group-item list-group-item-danger">
+							Nunca se aproxime apenas para observar.
+						</li>
+						<li class="list-group-item list-group-item-danger">
+							Mantenha rota de fuga antes de qualquer registro.
+						</li>
+						<li class="list-group-item list-group-item-danger">
+							Se ferido, trate-se antes de relatar.
+						</li>
+						<li class="list-group-item list-group-item-danger">
+							Evite observações durante tempestades magnéticas.
+						</li>
+					</ul>
+					<div class="container bg-body-tertiary mt-4 rounded-3 p-3">
+						<form>
+							<div class="row justify-content-center">
+								<div class="col col-md-6">
+									<div class="mb-2">
+										<label for="nome" class="form-label">Nome Completo:</label>
+										<input type="text" class="form-control" id="nome">
+									</div>
+									<div class="mb-2">
+										<label for="place" class="form-label">Local do avistamento:</label>
+										<input type="text" class="form-control" placeholder="Ex: 20.66N / 44.11W" id="place">
+									</div>
+									<div class="mb-2">
+										<label for="creature-type" class="form-label">Tipo De Criatura:</label>
+										<select class="form-select">
+											<option value="1">One</option>
+											<option value="2">Two</option>
+											<option value="3">Three</option>
+										</select>
+									</div>
+									<div class="mb-2">
+										<label for="event-description" class="form-label">Descrição detalhada do ocorrido:</label>
+										<textarea class="form-control" id="event-description" rows="3"></textarea>
+									</div>
+									<div class="mb-2">
+										<label for="event-date" class="form-label">Data e Hora Aproximada:</label>
+										<input type="datetime-local" class="form-control" id="event-date">
+									</div>
+									<button type="submit" class="btn btn-primary mt-2">Enviar</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</main>
 
 		<footer class="footer mt-auto p-3 bg-body-tertiary border-top">
 			<div class="container text-center">
