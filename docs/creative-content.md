@@ -15,86 +15,98 @@ No mundo lá fora, **informação é sobrevivência**.
 
 # 🧬 Bestiário — Criaturas Comuns Após a Queda
 
-## 1. Rastreador Vazio
-Criatura ágil, completamente cega, guiada apenas pela audição amplificada. Caça em bandos pequenos.
-- **Ponto fraco:** Extremamente sensível a vibrações bruscas.
+## 1. Rastreador Vazio  
+**Tipo:** Predador Sensorial  
+Criatura ágil, completamente cega, guiada apenas pela audição amplificada. Caça em bandos pequenos.  
+- **Ponto fraco:** Extremamente sensível a vibrações bruscas.  
 - **Tática recomendada:** Arremesse objetos para criar distrações e escapar.
 
 ---
 
-## 2. Carcaça Esfarrapada
-Figura humanoide de aparência cadavérica, movimenta-se de forma lenta e silenciosa.
-- **Ponto fraco:** A espinha exposta e instável.
+## 2. Carcaça Esfarrapada  
+**Tipo:** Necromorfo/Parasitário  
+Figura humanoide de aparência cadavérica, movimenta-se de forma lenta e silenciosa.  
+- **Ponto fraco:** A espinha exposta e instável.  
 - **Tática recomendada:** Ataque pelas costas ou evite totalmente.
 
 ---
 
-## 3. Serpente Ferrita
-Serpente metálica formada por mineralização intensa após a Tempestade Vermelha.
-- **Ponto fraco:** Parte inferior do pescoço com pouca blindagem.
+## 3. Serpente Ferrita  
+**Tipo:** Bio-Metalizado  
+Serpente metálica formada por mineralização intensa após a Tempestade Vermelha.  
+- **Ponto fraco:** Parte inferior do pescoço com pouca blindagem.  
 - **Tática recomendada:** Use luz forte ou flashes para afastá-la.
 
 ---
 
-## 4. Trovejante Curto-Alcance
-Quadrúpede capaz de armazenar eletricidade estática e liberá-la de forma explosiva.
-- **Ponto fraco:** Intervalo de alguns segundos entre descargas.
+## 4. Trovejante Curto-Alcance  
+**Tipo:** Predador Sensorial  
+Quadrúpede capaz de armazenar eletricidade estática e liberá-la de forma explosiva.  
+- **Ponto fraco:** Intervalo de alguns segundos entre descargas.  
 - **Tática recomendada:** Aguarde o disparo e ataque no período de recarga.
 
 ---
 
-## 5. Sussurrador de Ossos
-Criatura que imita vozes humanas para atrair vítimas. Não possui olhos.
-- **Ponto fraco:** Extremamente vulnerável à luz ultravioleta.
+## 5. Sussurrador de Ossos  
+**Tipo:** Entidade Anômala  
+Criatura que imita vozes humanas para atrair vítimas. Não possui olhos.  
+- **Ponto fraco:** Extremamente vulnerável à luz ultravioleta.  
 - **Tática recomendada:** Use lanternas UV e mantenha silêncio absoluto.
 
 ---
 
-## 6. Parasita Cinzento
-Pequeno, rápido e letal. Entra em corpos desacordados e assume controle quase imediato.
-- **Ponto fraco:** Calor intenso.
+## 6. Parasita Cinzento  
+**Tipo:** Necromorfo/Parasitário  
+Pequeno, rápido e letal. Entra em corpos desacordados e assume controle quase imediato.  
+- **Ponto fraco:** Calor intenso.  
 - **Tática recomendada:** Utilize fogo, tochas ou ambientes aquecidos.
 
 ---
 
-## 7. Golem Marrow-12
-Estrutura colossal formada por placas metálicas urbanas corrompidas.
-- **Ponto fraco:** Núcleo dorsal instável.
+## 7. Golem Marrow-12  
+**Tipo:** Bio-Metalizado  
+Estrutura colossal formada por placas metálicas urbanas corrompidas.  
+- **Ponto fraco:** Núcleo dorsal instável.  
 - **Tática recomendada:** Use explosivos ou atraia-o para estruturas frágeis.
 
 ---
 
-## 8. Vulto Cortante
-Névoa sombria carregada de fragmentos metálicos que cortam tudo ao redor.
-- **Ponto fraco:** Ondas sonoras graves diminuem sua coesão.
+## 8. Vulto Cortante  
+**Tipo:** Entidade Anômala  
+Névoa sombria carregada de fragmentos metálicos que cortam tudo ao redor.  
+- **Ponto fraco:** Ondas sonoras graves diminuem sua coesão.  
 - **Tática recomendada:** Use vibrações, motores, geradores ou superfícies metálicas.
 
 ---
 
-## 9. Predador do Silo
-Criatura subterrânea gigantesca que agora vaga na superfície. Extremamente veloz.
-- **Ponto fraco:** Olfato hiperativo e sensível.
+## 9. Predador do Silo  
+**Tipo:** Predador Sensorial  
+Criatura subterrânea gigantesca que agora vaga na superfície. Extremamente veloz.  
+- **Ponto fraco:** Olfato hiperativo e sensível.  
 - **Tática recomendada:** Use odores fortes para repelir ou redirecionar.
 
 ---
 
-## 10. Sussurrador de Frequência
-Entidade incorpórea que se manifesta através de dispositivos eletrônicos. Causa alucinações auditivas e paranoia progressiva.
-- **Ponto fraco:** Isolamento eletromagnético completo.
+## 10. Sussurrador de Frequência  
+**Tipo:** Entidade Anômala  
+Entidade incorpórea que se manifesta através de dispositivos eletrônicos. Causa alucinações auditivas e paranoia progressiva.  
+- **Ponto fraco:** Isolamento eletromagnético completo.  
 - **Tática recomendada:** Gaiola de Faraday ou desative todos os dispositivos eletrônicos num raio de 50 metros.
 
 ---
 
-## 11. Rastejante de Cinzas
-Organismo amorfo composto de material particulado radioativo. Contamina tudo que toca e se espalha pelo ar.
-- **Ponto fraco:** Água pressurizada dissolve sua estrutura.
+## 11. Rastejante de Cinzas  
+**Tipo:** Necromorfo/Parasitário  
+Organismo amorfo composto de material particulado radioativo. Contamina tudo que toca e se espalha pelo ar.  
+- **Ponto fraco:** Água pressurizada dissolve sua estrutura.  
 - **Tática recomendada:** Use mangueiras de alta pressão ou aspersores industriais. Máscara com filtro P3 obrigatória.
 
 ---
 
-## 12. Espreitador de Sombras
-Predador dimensional que só existe em completa escuridão. Paralisa vítimas através do contato visual.
-- **Ponto fraco:** Qualquer fonte de luz o dispersa instantaneamente.
+## 12. Espreitador de Sombras  
+**Tipo:** Entidade Anômala  
+Predador dimensional que só existe em completa escuridão. Paralisa vítimas através do contato visual.  
+- **Ponto fraco:** Qualquer fonte de luz o dispersa instantaneamente.  
 - **Tática recomendada:** Mantenha múltiplas fontes luminosas ativas. Sinalizadores e lanternas com baterias sobressalentes são essenciais.
 
 ---
