@@ -1,4 +1,3 @@
-```markdown
 # Project Zinco — Guia Completo de Sobrevivência
 
 ---
@@ -259,4 +258,3 @@ Seus dados podem salvar vidas.
 **QUEIME ESTE DOCUMENTO APÓS LER.**
 
 > *Se alguém encontrar suas cinzas, que saiba que você lutou.*
-```
