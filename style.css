@@ -1,0 +1,11 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.list-group > .list-group-item:target {
+    background-color: var(--bs-warning-bg-subtle);
+    border-left: 4px solid var(--bs-warning);
+    padding: 1rem;
+    margin-left: -1rem;
+    transition: all 0.3s ease;
+}
